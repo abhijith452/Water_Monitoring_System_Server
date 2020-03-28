@@ -12,7 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node_modules/.bin/wdio ./wdio.conf.js",
+     "test": "echo \"Error: no test specified\" && exit 1",
+  "int-test": "mocha --require babel-core/register --recursive test",
     "start": "node server.js"
   },
   "keywords": [],
