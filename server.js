@@ -17,7 +17,7 @@ const io = socketio(server);
 io.sockets.on('connection', (socket) => {
     console.log(`new connection id: ${socket.id}`);
     sendData(socket);
-    socket.on('disconnet',()=>{
+    socket.on('disconnect',()=>{
         console.log('Disconneted');
     })
 })
