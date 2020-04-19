@@ -24,7 +24,7 @@ io.sockets.on('connection', (socket) => {
 
 
 app.use(router);
-app.use(cors());
+app.use(cors({origin: '*'}));
 server.listen(PORT, ()=>console.log('server is running on port' ,PORT));
 function sendData(socket){
 const eventHubReader = new EventHubReader(iotHubConnectionString, eventHubConsumerGroup);

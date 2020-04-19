@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node_modules/.bin/wdio ./wdio.conf.js",
+    
     "start": "node server.js"
   },
   "keywords": [],
