@@ -2,7 +2,7 @@ const express = require('express');
 const socketio = require('socket.io');
 const http = require('http');
 const EventHubReader = require('./event-hub-reader.js');
-const iotHubConnectionString = "HostName=NodeHuber.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=1jUmB4uldpTD08+2+dH89hNVF8xMxFU1pgZEpWRvHjQ=";
+const iotHubConnectionString = "HostName=NodeMCUHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=GQjC3mv6S9uYMPCHE4B+yfQWkspE1c+eYDOFqhGzFlA=";
 const eventHubConsumerGroup = "node";
 const cors = require('cors');
 
